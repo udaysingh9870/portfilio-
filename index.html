@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uday Singh - Android Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="animated-bg">
+        <div class="code-rain">function onCreate() {<br>super.onCreate(savedInstanceState)<br>setContentView(R.layout.main)<br>}</div>
+        <div class="code-rain">class MainActivity : AppCompatActivity() {<br>override fun onCreate() {<br>initializeViews()<br>}</div>
+        <div class="code-rain">@Composable<br>fun MyScreen() {<br>LazyColumn {<br>items { Text(it) }<br>}</div>
+        <div class="code-rain">val repository = Repository()<br>val viewModel = ViewModel()<br>binding.recyclerView.adapter</div>
+        <div class="code-rain">implementation 'androidx.compose.ui'<br>implementation 'androidx.lifecycle'<br>implementation 'retrofit2'</div>
+        <div class="code-rain">data class WeatherResponse(<br>val temperature: Double,<br>val description: String<br>)</div>
+    </div>
+
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">Uday Singh</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-avatar">
+                    👨‍💻
+                </div>
+                <h1>Uday Singh</h1>
+                <p class="subtitle">Android Developer</p>
+                <p class="description">
+                    Passionate mobile developer specializing in creating innovative Android applications 
+                    using modern technologies like Kotlin, XML, and Jetpack Compose. 
+                    Building the future, one app at a time.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <a href="#contact" class="btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="skills" class="section">
+            <h2 class="section-title">Core Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>Kotlin</h3>
+                    <p>Modern programming language for Android development. Expert in Kotlin coroutines, extensions, and functional programming paradigms for efficient and clean code.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>XML</h3>
+                    <p>Proficient in creating responsive and intuitive user interfaces using Android XML layouts, custom views, and material design principles.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Jetpack Compose</h3>
+                    <p>Building modern declarative UIs with Android's latest UI toolkit. Creating dynamic and interactive user experiences with composable functions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🧮</div>
+                        <h3>Digital Calculator</h3>
+                    </div>
+                    <p>A fully functional digital calculator app built with Kotlin. Features advanced mathematical operations, memory functions, and a clean, intuitive interface with smooth animations and haptic feedback.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Kotlin</span>
+                        <span class="tech-tag">XML</span>
+                        <span class="tech-tag">Material Design</span>
+                        <span class="tech-tag">MVVM</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🌤️</div>
+                        <h3>Weather App</h3>
+                    </div>
+                    <p>Real-time weather application with API integration providing accurate forecasts, location-based weather data, and beautiful weather animations. Features 7-day forecasts and weather alerts.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Kotlin</span>
+                        <span class="tech-tag">REST API</span>
+                        <span class="tech-tag">Retrofit</span>
+                        <span class="tech-tag">JSON</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📰</div>
+                        <h3>News App</h3>
+                    </div>
+                    <p>Comprehensive news application with API integration delivering real-time news from multiple sources. Features categories, search functionality, bookmarking, and offline reading capabilities.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Kotlin</span>
+                        <span class="tech-tag">News API</span>
+                        <span class="tech-tag">RecyclerView</span>
+                        <span class="tech-tag">Room DB</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+919870877457">+91 9870877457</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:udaysingh987087@gmail.com">udaysingh987087@gmail.com</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://linkedin.com/in/udaysingh" target="_blank">Connect with me</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💻</div>
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/udaysingh" target="_blank">View my code</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
